@@ -1,0 +1,90 @@
+body {
+    width: 890px;
+    border: 1px solid black;
+    height: 500px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    width: 250px;
+    height: 20px;
+    margin-top: 50px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color:background: #4D4D4D;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+nav ul li a:hover{
+    font-weight: 500;
+    color: background: #F55253;
+
+}
+
+
+.contenedorLogos{
+    width: 154.9px;
+    height: 41px;
+    margin-top: 38px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contenedorSearch{ 
+    width: 240px;
+    height: 41px;
+    margin-top: 42px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.searchBarr{
+    border: none;
+    outline: none;
+    padding: 6px;
+}
+
+.barra{
+    color: #F2F2F2 ;
+    margin-right: 4px;
+}
+
+.numeroDos{
+    width: 20px;
+    height: 20px;
+    background-color: #F55253;
+    color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+
